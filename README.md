@@ -47,3 +47,29 @@ Default
 
 0 is falsy → "JS" is returned
 "" is falsy → "Default" is returned
+
+4.
+console.log('2' - 1);
+👉 Output: 1
+Why?
+
+In JavaScript, the - (minus) operator forces type conversion (called type coercion).
+
+'2' is a string
+1 is a number
+When using -, JavaScript converts '2' → 2 (number)
+
+
+5.console.log(2 + true);
+
+👉 Output: 3
+
+Why?
+
+In JavaScript, true is treated as 1 when used in numeric operations.
+
+
+
+
+
+
