@@ -70,6 +70,14 @@ In JavaScript, true is treated as 1 when used in numeric operations.
 
 
 
+6.
+console.log([] == []);
+👉 Output: false
+Why?
+In JavaScript, arrays are objects, and objects are compared by reference, not by value.
+
+
+
 
 
 
